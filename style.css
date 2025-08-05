@@ -48,11 +48,21 @@ body.login {
   position: relative;
 }
 .user,
-.eye {
+.eye-cont {
   position: absolute;
   right: 0;
   margin-right: 14px;
-  width: 1.2rem;
+  display: flex;
+  align-items: center;
+}
+.user, #eye-off, #eye {
+  width: 1.3rem;
+}
+.eye-cont {
+  cursor: pointer;
+}
+#eye {
+  display: none;
 }
 .container .form input {
   width: 100%;

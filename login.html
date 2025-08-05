@@ -18,18 +18,30 @@
     <div class="form">
       <form action="">
         <div class="username-input">
-          <input type="text" name="username" id="username" placeholder="Username"> <i data-feather="user" class="user"></i>
+          <input type="text" name="username" id="username" placeholder="Username"> 
+          <div id="user-cont" class="user">
+            <i data-feather="user"></i>`
+          </div>
         </div>
         <div class="password-input">
-          <input type="password" name="password" id="password" placeholder="Password"> <i data-feather="eye-off" class="eye"></i> <br>
+          <input type="password" name="password" id="password" placeholder="Password"> 
+          <div  id="eye-cont" class="eye-cont">
+            <div id="eye-off">
+              <i data-feather="eye-off" style="width: 100%;"></i>
+            </div>
+            <div id="eye">
+              <i data-feather="eye" style="width: 100%;"></i>
+            </div>
+          </div>
         </div>
         <input type="submit" value="Login">
       </form>
     </div>
     <footer>Powered By TKJ Class</footer>
   </div>
+  <script src="script.js"></script>
   <script>
       feather.replace();
-    </script>
+  </script>
 </body>
 </html>
