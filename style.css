@@ -4,7 +4,7 @@
   box-sizing: border-box;
 }
 body.login {
-  background: url(/img/m.jpg);
+  background: url(img/motheboard.jpg);
   background-position: center;
   background-size: cover;
   display: flex;
@@ -101,7 +101,7 @@ footer {
   font-size: 0.9rem;
 }
 
-/* Succes */
+/* Status */
 
 body.succes {
   background-color: rgb(11, 28, 54);
