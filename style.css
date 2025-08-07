@@ -115,34 +115,38 @@ body.succes {
   width: 40%;
   background-color: rgb(28, 68, 128);
   color: white;
-  padding: 1.5rem;
+  padding: 2.5rem 2rem;
   text-align: center;
   border-radius: 20px;
   box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
 }
 .box h1 {
   font-size: 1.5rem;
-  margin-bottom: 15px;
+  margin: 10px 0 15px;
 }
 .box p {
   font-size: 14px;
   line-height: 1.5;
 }
-.box button {
-  margin-top: 15px;
-  padding: 7px 30px;
-  cursor: pointer;
-  background-color: rgb(20, 42, 75);
-  color: white;
-  border: none;
-  border-radius: 5px;
-}
 .box button:hover {
   background-color: rgb(10, 25, 47);
+}
+.succes .box img {
+  min-width: 80px;
+  max-width: 20%;
 }
 
 @media (max-width: 768px) {
   .box {
     width: 65%;
+  }
+  .box h1 {
+    font-size: 1.3rem;
+  }
+  .box p {
+    font-size: 13px;
+  }
+  .succes .box img {
+    min-width: 70px;
   }
 }
